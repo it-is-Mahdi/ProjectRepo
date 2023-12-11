@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+        <head>
+        <meta charset="utf-8">
+        <title>jQuery - Amandeep S. Patti</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="jquery/jquery-3.5.1.min.js"><\/script>');
+        </script>
+        
+		<script>
+            $(document).ready(function(){
+					// Implement jQuery Here							
+			
+            });
+        </script>
+        </head>
+
+<body>
+    <p id="p1"> This is Para 1 </p>
+    <p id="p2"> This is Para 2 </p>
+    <p id="p3" class="highlight"> This is Para 3 </p>
+
+	<div id="d1">
+		<p id="d1p1"> This Para is within a Div </p>
+	</div>
+	
+    <ul id="colors">
+		<li>Red</li>
+		<li>Green</li>
+		<li class="highlight">Blue</li>
+	</ul>
+
+    <table id="flights" border="1">
+        <tr>
+            <th>Flight</th>
+        </tr>
+        <tr class="ontime">
+            <td>Toronto To New York</td>
+        </tr>
+        <tr class="late">
+            <td >Toronto To London</td>
+        </tr>
+        <tr class="late">
+            <td >Toronto To Paris</td>
+        </tr>
+        <tr class="late">
+            <td>Toronto To New York</td>
+        </tr>
+    </table>
+
+<br>
+    <form id="formcomment">
+    
+    <table border="1">
+        <tr>
+            <td>User Name</td>
+            <td><input type="text"></td>
+        </tr>  
+        <tr>
+            <td>Email</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" value="m"> Male
+                <input type="radio" value="f"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>
+                    <select>
+                        <option>Brampton</option>
+                        <option>Missisauga</option>
+                        <option>Toronto</option>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Comments</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"> I Agree</td>
+            <td> 
+                <input type="submit" value="Post Comments">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+    </table>
+    </form>
+
+</body>
+</html>
